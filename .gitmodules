@@ -13,7 +13,8 @@
 	url = https://github.com/couchbasedeps/mbedtls.git
 [submodule "vendor/sockpp"]
 	path = vendor/sockpp
-	url = https://github.com/couchbasedeps/sockpp.git
+	url = https://github.com/blaugold/sockpp.git
+	branch = emscripten
 [submodule "vendor/zlib"]
 	path = vendor/zlib
 	url = https://github.com/couchbasedeps/zlib
