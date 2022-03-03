@@ -10,6 +10,9 @@
 // the file licenses/APL2.txt.
 //
 
+// TODO: Port RESTListener to emscripten
+#ifndef __EMSCRIPTEN__
+
 #include "c4Test.hh"
 #include "Error.hh"
 #include "c4Replicator.h"
@@ -809,3 +812,5 @@ TEST_CASE_METHOD(C4RESTTest, "REST HTTP Replicate Oneshot, Auth", "[REST][Listen
 }
 
 #endif // COUCHBASE_ENTERPRISE
+
+#endif // __EMSCRIPTEN__
