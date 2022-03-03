@@ -1,6 +1,7 @@
 [submodule "vendor/fleece"]
 	path = vendor/fleece
-	url = https://github.com/couchbaselabs/fleece.git
+	url = https://github.com/blaugold/fleece.git
+	branch = emscripten
 [submodule "vendor/SQLiteCpp"]
 	path = vendor/SQLiteCpp
 	url = https://github.com/couchbasedeps/SQLiteCpp.git
